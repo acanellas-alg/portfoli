@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+}
+
+#cabecera{
+  height: 400px;
+  background-color: pink;
+}
+
+#cuadro{
+  background-color: orange;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.rectangulos{
+  width: 400px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 20px;
+  float: left;
+}
+#barrablanca{
+  background-color: white;
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#pie{
+height: 100px;
+background-color: pink;
+}
+
+.clear{
+  clear: both;
+}
