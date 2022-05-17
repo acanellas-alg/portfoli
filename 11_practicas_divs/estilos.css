@@ -1,0 +1,44 @@
+body{
+  background-color: blue;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  background-image: url(shinchan.jpg);
+  background-color:#34495E
+  margin: 10px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#boton{
+border-radius: 50px;
+background: none;
+background-color: #34495E;
+text-align: center;
+line-height:200px;
+font-size: 22px;
+font-family: sans-serif;
+right: 50px;
+bottom: 50px;
+font-weight: bold;
+float: right;
+position: fixed;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+
+a:active{
+  color:navy;
+}
+
+a:hover{
+  opacity:50%;
+}
