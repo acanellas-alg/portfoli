@@ -1,0 +1,260 @@
+body{
+  background-color: #EDEDED;
+}
+
+@keyframes contenedor{
+  0% { background-color: #FEFCDE;}
+  50% { background-color: #5B6773;}
+  100% { background-color: #021C3F;}
+}
+
+
+#contenedor{
+  width: 1800px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #FEFCDE;
+  overflow: hidden;
+  animation-name: contenedor;
+  animation-duration: 19s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sol{
+  0% { left: 0px; top: 0px;}
+  100% { left: 0px; top: 570px;}
+}
+
+
+#sol{
+  position: relative;
+  bottom: 105px;
+  animation-iteration-count: infinite;
+  animation-name: sol;
+  animation-duration: 20s;
+  animation-delay: 3s;
+}
+
+
+@keyframes nube{
+  0% { left: 0px; top: 0px;}
+  100% { left: 1850px; top:0px;}
+}
+
+#nube{
+  width: 250px;
+  height: 150px;
+  background-image: url("nube1.png");
+  position: relative;
+  top: 300px;
+  right: 240px;
+  z-index: 10;
+  animation-name: nube;
+  animation-duration: 17s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+#solex{
+  width: 500px;
+  height: 500px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+100;Yellow+Flat+%231 */
+background: #ffff88; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffff88 0%, #ffff88 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffff88 0%,#ffff88 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffff88 0%,#ffff88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */;
+position: relative;
+left: 650px;
+top: 50px;
+border-radius: 50%;
+}
+
+#solin{
+  width: 400px;
+  height: 400px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7f067+0,ffa73d+52,ed8a00+100 */
+background: #f7f067; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7f067 0%, #ffa73d 52%, #ed8a00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7f067 0%,#ffa73d 52%,#ed8a00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7f067 0%,#ffa73d 52%,#ed8a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f067', endColorstr='#ed8a00',GradientType=0 ); /* IE6-9 */;;
+position: relative;
+left: 52px;
+top: 55px;
+border-radius: 50%;
+}
+
+
+
+#casa{
+  position: relative;
+  bottom: 320px;
+}
+
+
+#casita{
+  width: 220px;
+  height: 220px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  left: 60px;
+  bottom: 240px;
+}
+
+.ventanas{
+  width: 60px;
+  height: 60px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+50,89c3eb+51,d5ebfb+100;Blue+Gloss+%234 */
+background: #ebf1f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */;
+  border-radius: 20%;
+  z-index: 10;
+  display: inline-block;
+}
+
+.v1{
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.v2{
+  position: relative;
+  left: 76px;
+  top: 40px;
+}
+
+#tejado{
+  width: 220px;
+  height: 130px;
+  background-color: #BAFFB7;
+  z-index: 10;
+  position: relative;
+  left: 60px;
+  bottom: 240px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+#puerta{
+  width: 70px;
+  height: 110px;
+  background-color: #FDBC71;
+  position: relative;
+  left: 76px;
+  top: 60px;
+  border-radius: 40%;
+}
+
+#tallo{
+  width: 25px;
+  height: 100px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9db80+0,96c56f+100;Green+3D+%232 */
+background: #a9db80; /* Old browsers */
+background: -moz-linear-gradient(top,  #a9db80 0%, #96c56f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a9db80 0%,#96c56f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* IE6-9 */;
+  z-index: 10;
+  position: relative;
+  left: 450px;
+  bottom: 250px;
+}
+
+
+@keyframes flor{
+  0% {transform: rotate(0deg);}
+  100% { transform: rotate(-360deg);}
+}
+
+
+#flor{
+  width: 50px;
+  height: 50px;
+  background-color: #FCAA2C;
+  border-radius: 50%;
+  position: relative;
+  left: 438px;
+  bottom: 190px;
+  z-index: 1000;
+  animation-iteration-count: infinite;
+  animation-name: flor;
+  animation-duration: 3s;
+
+
+}
+
+
+#semilla{
+  width: 50px;
+  height: 50px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7c247+0,ed8200+100 */
+background: #f7c247; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f7c247 0%, #ed8200 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f7c247 0%,#ed8200 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f7c247 0%,#ed8200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7c247', endColorstr='#ed8200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+  border-radius: 50%;
+  position: relative;
+  left: 438px;
+  bottom: 240px;
+  z-index: 1000;
+}
+
+#petalsizq{
+position: relative;
+left: 128px;
+top: 125px;
+}
+
+#petalsder{
+position: relative;
+right: 16px;
+top: 405px;
+}
+
+.petalo{
+  width: 60px;
+  height: 60PX;
+  background-color: #FFDA31;
+  border-radius: 30% 70% 0% 100% / 22% 100% 0% 78%;
+  position: relative;
+}
+
+.petalo.uno{
+right: 160px;
+bottom: 160px;
+}
+
+.petalo.dos{
+  bottom: 160px;
+  right: 160px;
+  transform: rotate(-90deg);
+}
+
+.petalo.tres{
+  left: 40px;
+  bottom: 560px;
+  transform: rotate(90deg);
+}
+
+.petalo.cuatro{
+  left: 40px;
+  bottom: 560px;
+  transform: rotate(-180deg);
+}
+
+#campesino{
+  width: 200px;
+  height: 260px;
+  background-image: url(campesino.png);
+  position: relative;
+  bottom: 530px;
+  left: 1300px;
+}
