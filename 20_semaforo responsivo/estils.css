@@ -1,0 +1,74 @@
+body{
+  background: #D8EAE8;
+  margin: 0;
+  padding: 0;
+}
+#semaforo{
+  width: 260px;
+  height: 480px;
+  background-color: #212F3C;
+  margin: 0 auto;
+  position: relative;
+  left: 20px;
+  top: 50px;
+  border-radius: 45px;
+  padding-top: 10px;
+}
+.luces{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 80px;
+  top: 40px;
+  border-radius: 50%;
+}
+.lroja{
+
+}
+
+.lamarilla{
+
+  top: 70px;
+}
+
+.lverde{
+
+  top: 100px;
+}
+
+@media screen and (min-width: 1200px){
+  .lroja{
+    background-color: #FA0303;
+  }
+  .lamarilla{
+    background-color: #B6B7B6;
+  }
+  .lverde{
+    background-color: #B6B7B6;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .lroja{
+    background-color: #B6B7B6;
+  }
+  .lamarilla{
+    background-color: #FFE209;
+  }
+  .lverde{
+    background-color: #B6B7B6;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .lroja{
+    background-color: #B6B7B6;
+  }
+  .lamarilla{
+    background-color: #B6B7B6;
+  }
+  .lverde{
+    background-color: #48FF48;
+  }
+}
